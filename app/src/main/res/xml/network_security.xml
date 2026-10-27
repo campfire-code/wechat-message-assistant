@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 只允许 https。本应用默认不联网，只有填了大模型接口并手动点生成时才请求。 -->
+<network-security-config>
+    <base-config cleartextTrafficPermitted="false" />
+</network-security-config>

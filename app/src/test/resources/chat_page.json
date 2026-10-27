@@ -1,0 +1,68 @@
+{
+ "className": "android.widget.FrameLayout",
+ "left": 0,
+ "top": 0,
+ "right": 1080,
+ "bottom": 2200,
+ "children": [
+  {
+   "className": "android.widget.TextView",
+   "text": "示例客户甲",
+   "left": 400,
+   "top": 100,
+   "right": 700,
+   "bottom": 200
+  },
+  {
+   "className": "android.widget.ListView",
+   "scrollable": true,
+   "left": 0,
+   "top": 220,
+   "right": 1080,
+   "bottom": 2000,
+   "children": [
+    {
+     "className": "android.widget.LinearLayout",
+     "left": 0,
+     "top": 300,
+     "right": 1080,
+     "bottom": 400,
+     "children": [
+      {
+       "className": "android.widget.TextView",
+       "text": "你好，这款多少钱？",
+       "left": 200,
+       "top": 320,
+       "right": 900,
+       "bottom": 380
+      }
+     ]
+    },
+    {
+     "className": "android.widget.LinearLayout",
+     "left": 0,
+     "top": 420,
+     "right": 1080,
+     "bottom": 520,
+     "children": [
+      {
+       "className": "android.widget.TextView",
+       "text": "在的",
+       "left": 200,
+       "top": 440,
+       "right": 900,
+       "bottom": 500
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "className": "android.widget.EditText",
+   "left": 100,
+   "top": 2050,
+   "right": 900,
+   "bottom": 2150
+  }
+ ]
+}

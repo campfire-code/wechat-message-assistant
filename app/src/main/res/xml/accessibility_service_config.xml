@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 只读：不申请手势、不申请截图、不申请点击输入；只接收个人微信（com.tencent.mm）的通知和界面变化事件 -->
+<accessibility-service xmlns:android="http://schemas.android.com/apk/res/android"
+    android:accessibilityEventTypes="typeNotificationStateChanged|typeWindowContentChanged|typeWindowStateChanged"
+    android:accessibilityFeedbackType="feedbackGeneric"
+    android:accessibilityFlags="flagIncludeNotImportantViews"
+    android:canRetrieveWindowContent="true"
+    android:packageNames="com.tencent.mm"
+    android:description="@string/accessibility_description"
+    android:notificationTimeout="300" />

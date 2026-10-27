@@ -1,0 +1,256 @@
+{
+ "className": "android.widget.FrameLayout",
+ "left": 0,
+ "top": 0,
+ "right": 1080,
+ "bottom": 2200,
+ "children": [
+  {
+   "className": "android.widget.TextView",
+   "text": "微信",
+   "left": 400,
+   "top": 100,
+   "right": 700,
+   "bottom": 200
+  },
+  {
+   "className": "androidx.recyclerview.widget.RecyclerView",
+   "scrollable": true,
+   "left": 0,
+   "top": 300,
+   "right": 1080,
+   "bottom": 2100,
+   "children": [
+    {
+     "className": "android.widget.LinearLayout",
+     "clickable": true,
+     "left": 0,
+     "top": 300,
+     "right": 1080,
+     "bottom": 500,
+     "children": [
+      {
+       "className": "android.widget.ImageView",
+       "left": 30,
+       "top": 330,
+       "right": 160,
+       "bottom": 460
+      },
+      {
+       "className": "android.widget.TextView",
+       "text": "示例客户甲",
+       "left": 200,
+       "top": 330,
+       "right": 700,
+       "bottom": 390
+      },
+      {
+       "className": "android.widget.TextView",
+       "text": "你好，这款多少钱？",
+       "left": 200,
+       "top": 400,
+       "right": 900,
+       "bottom": 460
+      },
+      {
+       "className": "android.widget.TextView",
+       "text": "10:21",
+       "left": 900,
+       "top": 330,
+       "right": 1040,
+       "bottom": 390
+      },
+      {
+       "className": "android.widget.TextView",
+       "text": "2",
+       "left": 960,
+       "top": 400,
+       "right": 1020,
+       "bottom": 450
+      }
+     ]
+    },
+    {
+     "className": "android.widget.LinearLayout",
+     "clickable": true,
+     "left": 0,
+     "top": 500,
+     "right": 1080,
+     "bottom": 700,
+     "children": [
+      {
+       "className": "android.widget.ImageView",
+       "left": 30,
+       "top": 530,
+       "right": 160,
+       "bottom": 660
+      },
+      {
+       "className": "android.widget.TextView",
+       "text": "示例业务群",
+       "left": 200,
+       "top": 530,
+       "right": 700,
+       "bottom": 590
+      },
+      {
+       "className": "android.widget.TextView",
+       "text": "示例成员乙: @小篝 周五的样品能发吗",
+       "left": 200,
+       "top": 600,
+       "right": 900,
+       "bottom": 660
+      },
+      {
+       "className": "android.widget.TextView",
+       "text": "09:40",
+       "left": 900,
+       "top": 530,
+       "right": 1040,
+       "bottom": 590
+      },
+      {
+       "className": "android.widget.TextView",
+       "text": "5",
+       "left": 960,
+       "top": 600,
+       "right": 1020,
+       "bottom": 650
+      }
+     ]
+    },
+    {
+     "className": "android.widget.LinearLayout",
+     "clickable": true,
+     "left": 0,
+     "top": 700,
+     "right": 1080,
+     "bottom": 900,
+     "children": [
+      {
+       "className": "android.widget.ImageView",
+       "left": 30,
+       "top": 730,
+       "right": 160,
+       "bottom": 860
+      },
+      {
+       "className": "android.widget.TextView",
+       "text": "示例客户丙",
+       "left": 200,
+       "top": 730,
+       "right": 700,
+       "bottom": 790
+      },
+      {
+       "className": "android.widget.TextView",
+       "text": "好的，谢谢",
+       "left": 200,
+       "top": 800,
+       "right": 900,
+       "bottom": 860
+      },
+      {
+       "className": "android.widget.TextView",
+       "text": "昨天",
+       "left": 900,
+       "top": 730,
+       "right": 1040,
+       "bottom": 790
+      }
+     ]
+    },
+    {
+     "className": "android.widget.LinearLayout",
+     "clickable": true,
+     "left": 0,
+     "top": 900,
+     "right": 1080,
+     "bottom": 1100,
+     "children": [
+      {
+       "className": "android.widget.ImageView",
+       "left": 30,
+       "top": 930,
+       "right": 160,
+       "bottom": 1060
+      },
+      {
+       "className": "android.widget.TextView",
+       "text": "示例客户丁",
+       "left": 200,
+       "top": 930,
+       "right": 700,
+       "bottom": 990
+      },
+      {
+       "className": "android.widget.TextView",
+       "text": "[3条]在吗",
+       "left": 200,
+       "top": 1000,
+       "right": 900,
+       "bottom": 1060
+      },
+      {
+       "className": "android.widget.TextView",
+       "text": "星期一",
+       "left": 900,
+       "top": 930,
+       "right": 1040,
+       "bottom": 990
+      }
+     ]
+    },
+    {
+     "className": "android.widget.LinearLayout",
+     "clickable": true,
+     "left": 0,
+     "top": 1100,
+     "right": 1080,
+     "bottom": 1300,
+     "children": [
+      {
+       "className": "android.widget.ImageView",
+       "left": 30,
+       "top": 1130,
+       "right": 160,
+       "bottom": 1260
+      },
+      {
+       "className": "android.widget.TextView",
+       "text": "示例客户戊",
+       "left": 200,
+       "top": 1130,
+       "right": 700,
+       "bottom": 1190
+      },
+      {
+       "className": "android.widget.TextView",
+       "text": "代号 123",
+       "left": 200,
+       "top": 1200,
+       "right": 900,
+       "bottom": 1260
+      },
+      {
+       "className": "android.widget.TextView",
+       "text": "08:05",
+       "left": 900,
+       "top": 1130,
+       "right": 1040,
+       "bottom": 1190
+      },
+      {
+       "className": "android.widget.TextView",
+       "text": "99+",
+       "left": 960,
+       "top": 1200,
+       "right": 1020,
+       "bottom": 1250
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

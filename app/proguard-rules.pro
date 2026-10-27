@@ -1,0 +1,6 @@
+-keepattributes *Annotation*, InnerClasses
+-dontwarn org.bouncycastle.**
+-dontwarn org.conscrypt.**
+-dontwarn org.openjsse.**
+-keepclassmembers class kotlinx.serialization.json.** { *** Companion; }
+-keepclasseswithmembers class com.campfire.wechatassistant.** { kotlinx.serialization.KSerializer serializer(...); }

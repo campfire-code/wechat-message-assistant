@@ -1,0 +1,6 @@
+<resources>
+    <style name="Theme.App" parent="android:Theme.Material.NoActionBar">
+        <item name="android:windowBackground">#0F1613</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+    </style>
+</resources>

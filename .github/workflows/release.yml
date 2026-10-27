@@ -1,0 +1,13 @@
+name: release
+
+on:
+  push:
+    tags: ['v*']
+
+permissions:
+  contents: write
+
+jobs:
+  release:
+    uses: campfire-code/toolkit-hub/.github/workflows/android-release.yml@v1
+    secrets: inherit

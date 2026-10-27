@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">个微消息助手</string>
+    <string name="accessibility_description">只读：读取个人微信的新消息通知和聊天列表上显示的文字，按你设置的规则在本应用里提醒并给出回复建议。不会点击、输入或发送任何内容。开启后本应用只接收微信这一个应用的界面事件，请只在自己的手机上、了解风险后开启。</string>
+</resources>
